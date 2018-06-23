@@ -1,5 +1,7 @@
 clc; clear; close all;
 
+% pkg load image
+
 P = phantom(256); 
 figure; imshow(P);
 
